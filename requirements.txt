@@ -24,4 +24,3 @@ Sphinx==1.7.7
 sphinx-rtd-theme==0.4.1
 sphinxcontrib-websupport==1.1.0
 urllib3==1.23
-xgboost==0.7
