@@ -9,9 +9,9 @@ from crabs.api_caller import CrabCaller
 class CrabsTestCase(unittest.TestCase):
 
     # Dummy test to make sure testing is working
-    def test_call_crabs(self):
-        test_crab = Crab()
-        self.assertTrue(test_crab.call_crabs())
+    def test_begin_show(self):
+        test_crab = Crab(4)
+        self.assertTrue(test_crab.begin_show())
 
 
 class CrabCallerTestCase(unittest.TestCase):
