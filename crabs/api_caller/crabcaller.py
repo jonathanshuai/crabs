@@ -19,8 +19,6 @@ class CrabCaller():
         response_json = r.json()
 
         image_urls = []
-        print("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@")
-        print(response_json['status'])
         if response_json['status'] == 'ok':
             articles = response_json['articles']
             i = 0
