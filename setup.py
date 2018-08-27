@@ -36,5 +36,8 @@ setup(
     author='Jonathan Shuai',
     install_requires=install_requires,
     dependency_links=dependency_links,
-    author_email='jonathanshuai@gmail.com'
+    author_email='jonathanshuai@gmail.com',
+    entry_points = {
+        'console_scripts': ['crabs=crabs.command_line:main'],
+    }
 )
