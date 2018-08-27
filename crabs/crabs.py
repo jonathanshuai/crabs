@@ -1,4 +1,7 @@
-import api_caller.caller
+from .api_caller import caller as crabcaller
 
 
-api_caller.caller.call()    
+class Crab():
+    def call_crabs(self):
+        crabcaller.call()
+        return True
