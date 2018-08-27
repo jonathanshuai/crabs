@@ -1,7 +1,10 @@
-from .api_caller import caller as crabcaller
+from .api_caller import CrabCaller
 
 
 class Crab():
+    def __init__(self):
+        self.cc = CrabCaller()
+
     def call_crabs(self):
-        crabcaller.call()
+        # cc.call()
         return True
