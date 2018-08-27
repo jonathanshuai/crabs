@@ -1,5 +1,3 @@
-from PIL import Image
-
 import requests
 
 API_KEY = '045e323fa13d495a82532ed57a97c6ac'
