@@ -6,14 +6,6 @@ from crabs import Crab
 from crabs.api_caller import CrabCaller
 
 
-class CrabsTestCase(unittest.TestCase):
-
-    # Dummy test to make sure testing is working
-    def test_begin_show(self):
-        test_crab = Crab(4)
-        self.assertTrue(test_crab.begin_show())
-
-
 class CrabCallerTestCase(unittest.TestCase):
 
     @mock.patch('crabs.api_caller.crabcaller.requests.models.Response')

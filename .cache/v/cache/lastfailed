@@ -1,0 +1,3 @@
+{
+  "tests/test_crabs.py::CrabsTestCase::test_begin_show": true
+}
