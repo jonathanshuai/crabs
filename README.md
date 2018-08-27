@@ -25,7 +25,7 @@ Or clone the repo:
 Contributing
 ------------
 
-TBD
+Powered by NewsAPI.
 
 Example
 -------

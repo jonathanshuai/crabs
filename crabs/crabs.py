@@ -1,6 +1,5 @@
 from .api_caller import CrabCaller
 
-
 class Crab():
     def __init__(self):
         self.cc = CrabCaller()
