@@ -1,4 +1,4 @@
-from .api_caller import caller as crabcaller
+from .api_caller import crabcaller
 
 
 class Crab():
