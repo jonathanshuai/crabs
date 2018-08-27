@@ -9,8 +9,14 @@ def call():
 
 class CrabCaller():
     def call_crabs(self, n):
+        return self.call_api(n, 'crabs')
+
+    def call_friends(self, n, friend='penguin'):
+        return self.call_api(n, friend)
+
+    def call_api(self, n, query):
         base = 'https://newsapi.org/v2/everything?apiKey={}'.format(API_KEY)
-        query_url = 'q={}'.format('crabs')
+        query_url = 'q={}'.format(query)
 
         request_url = '&'.join([base, query_url])
         r = requests.get(request_url)
@@ -26,6 +32,3 @@ class CrabCaller():
                 i += 1
 
         return image_urls
-
-cc = CrabCaller()
-response_json = cc.call_crabs(3)
