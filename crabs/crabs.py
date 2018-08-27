@@ -22,4 +22,5 @@ class Crab():
             data = requests.get(url).content
             img = Image.open(io.BytesIO(data))
             plt.imshow(img)
+            plt.axis('off')
             plt.show()
