@@ -6,7 +6,7 @@ from matplotlib import pyplot as plt
 
 import requests
 
-from api_caller import CrabCaller
+from .api_caller import CrabCaller
 
 
 class Crab():
